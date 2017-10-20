@@ -4,7 +4,7 @@ import time
 from playsound import playsound
 
 # Name of subreddits to watch.
-# Separate subreddits them with a + symbol as shown below.
+# Separate subreddits with a + symbol as shown below.
 # Do not include the "/r/" part, just the name of the sub.
 SUBREDDITS = 'subreddit1+subreddit2+subreddit3'
 
@@ -27,7 +27,6 @@ def notify(submission):
     # You can change the file to whatever you like, as long as you update it below.
     playsound('NotificationSound.mp3')
     
-
 
 def main():
     start_time = time.time()

@@ -19,7 +19,7 @@
 
 - Next, to create a bot account on Reddit, create a new Reddit account like you normally would. After it is created, go to *preferences > apps > create new app*. Make sure you select *script*. Call the bot whatever you like, and in the *redirect uri* box, enter *http://localhost:8080*. Then click create.
 
-- Go back to IDLE and follow the instructions that I commented in for you in t he *config.py* file. (Everything with a hash symbol before it. The text should be red.)
+- Go back to IDLE and follow the instructions that I commented in for you in the *config.py* file. (Everything with a hash symbol before it. The text should be red.)
 
 - After you entered in all of the credentials for your bot, save *config.py*, close it, and open *Subreddit Notification Bot.py*. Enter in the subreddits that you would like it to watch for you, and then press F5 to run it. If everything works correctly, a shell window (black window that looks like windows command prompt) should appear, and any time a post is made, it should display text in the shell, as well as the link to the post. You can close the window that has all the code in if you want to. 
 
